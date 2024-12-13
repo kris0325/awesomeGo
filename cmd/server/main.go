@@ -14,8 +14,8 @@ func main() {
 	r := routes.InitRoutes()
 
 	// Start the server
-	log.Println("************** Server successfully  running on port 8080 **********")
-	r.Run(":8080")
+	log.Println("************** Server successfully  running on port 8090 **********")
+	r.Run(":8090")
 }
 
 //func main() {
